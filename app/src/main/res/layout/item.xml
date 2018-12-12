@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1.0"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/sequence"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_weight=".5"/>
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_weight=".5"/>
+</LinearLayout>
